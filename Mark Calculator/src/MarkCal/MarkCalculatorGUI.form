@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="Mark Calculator"/>
+    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[900, 700]"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="formMouseClicked"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="chkActive1" min="-2" max="-2" attributes="0"/>
+                  <Component id="chkActive2" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="chkActive3" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="chkActiveFinal" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="chkActive4" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="chkActive5" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="chkActive6" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="chkActive7" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="2" attributes="0">
+                  <Component id="txtMark1" linkSize="1" alignment="2" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblMark" linkSize="1" alignment="2" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtMark2" linkSize="1" alignment="2" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtMark3" linkSize="1" alignment="2" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtMark4" linkSize="1" alignment="2" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtMark5" linkSize="1" alignment="2" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtMark6" linkSize="1" alignment="2" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtMark7" linkSize="1" alignment="2" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtMarkFinal" linkSize="1" alignment="2" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="2" attributes="0">
+                  <Component id="txtWeight7" linkSize="3" alignment="2" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtWeightFinal" linkSize="3" alignment="2" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblWeight" linkSize="3" alignment="2" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtWeight1" linkSize="3" alignment="2" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtWeight2" linkSize="3" alignment="2" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtWeight3" linkSize="3" alignment="2" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtWeight4" linkSize="3" alignment="2" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtWeight5" linkSize="3" alignment="2" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtWeight6" linkSize="3" alignment="2" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" groupAlignment="2" attributes="0">
+                      <Component id="lblFinal" linkSize="4" alignment="2" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtName2" linkSize="4" alignment="2" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtName1" linkSize="4" alignment="2" min="-2" pref="153" max="-2" attributes="0"/>
+                      <Component id="lblName" linkSize="4" alignment="2" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="txtName3" linkSize="4" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtName4" linkSize="4" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtName5" linkSize="4" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtName6" linkSize="4" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtName7" linkSize="4" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="2" attributes="0">
+                  <Component id="chkSlider2" alignment="2" min="-2" max="-2" attributes="0"/>
+                  <Component id="chkSlider1" alignment="2" min="-2" max="-2" attributes="0"/>
+                  <Component id="chkSliderFinal" alignment="2" min="-2" max="-2" attributes="0"/>
+                  <Component id="chkSlider3" alignment="2" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel1" alignment="2" min="-2" max="-2" attributes="0"/>
+                  <Component id="chkSlider4" alignment="2" min="-2" max="-2" attributes="0"/>
+                  <Component id="chkSlider5" alignment="2" min="-2" max="-2" attributes="0"/>
+                  <Component id="chkSlider6" alignment="2" min="-2" max="-2" attributes="0"/>
+                  <Component id="chkSlider7" alignment="2" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="sliderFinal" min="-2" pref="290" max="-2" attributes="0"/>
+                          <Component id="slider1" min="-2" pref="290" max="-2" attributes="0"/>
+                          <Component id="slider7" min="-2" pref="290" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="slider2" alignment="0" min="-2" pref="290" max="-2" attributes="0"/>
+                          <Component id="slider3" alignment="0" min="-2" pref="290" max="-2" attributes="0"/>
+                          <Component id="slider4" alignment="0" min="-2" pref="290" max="-2" attributes="0"/>
+                          <Component id="slider5" alignment="0" min="-2" pref="290" max="-2" attributes="0"/>
+                          <Component id="slider6" alignment="0" min="-2" pref="290" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+          <Group type="102" alignment="2" attributes="0">
+              <EmptySpace min="95" pref="95" max="-2" attributes="0"/>
+              <Component id="btnCalculate" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="119" max="-2" attributes="0"/>
+              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="lblCalMark" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                      <Component id="lblMark" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblWeight" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                      <Component id="lblName" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="txtName1" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="chkSlider1" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtMark1" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtWeight1" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="slider1" alignment="0" min="-2" pref="41" max="-2" attributes="0"/>
+                  <Component id="chkActive1" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="txtName2" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="chkSlider2" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtMark2" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtWeight2" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="slider2" alignment="0" min="-2" pref="41" max="-2" attributes="0"/>
+                  <Component id="chkActive2" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="txtName3" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtMark3" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtWeight3" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="chkSlider3" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="slider3" alignment="0" min="-2" pref="41" max="-2" attributes="0"/>
+                  <Component id="chkActive3" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="chkSlider4" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtWeight4" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="slider4" alignment="0" min="-2" pref="41" max="-2" attributes="0"/>
+                  <Component id="txtName4" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtMark4" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="chkActive4" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="txtMark5" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="chkActive5" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtWeight5" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="slider5" alignment="0" min="-2" pref="41" max="-2" attributes="0"/>
+                  <Component id="chkSlider5" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtName5" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="txtMark6" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="chkSlider6" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtName6" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="slider6" alignment="0" min="-2" pref="41" max="-2" attributes="0"/>
+                  <Component id="chkActive6" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtWeight6" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="chkSlider7" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="slider7" alignment="0" min="-2" pref="41" max="-2" attributes="0"/>
+                  <Component id="txtName7" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="chkActive7" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtWeight7" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtMark7" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="txtWeightFinal" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtMarkFinal" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblFinal" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="chkSliderFinal" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="sliderFinal" alignment="0" min="-2" pref="41" max="-2" attributes="0"/>
+                  <Component id="chkActiveFinal" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="2" attributes="0">
+                  <Component id="jLabel2" alignment="2" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblCalMark" alignment="2" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnCalculate" alignment="2" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JTextField" name="txtMark1">
+      <BindingProperties>
+        <BindingProperty name="text" source="slider1" sourcePath="${value}" target="txtMark1" targetPath="text" updateStrategy="0" immediately="false">
+          <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
+        </BindingProperty>
+        <BindingProperty name="editable" source="chkSlider1" sourcePath="${!selected}" target="txtMark1" targetPath="editable" updateStrategy="0" immediately="false"/>
+      </BindingProperties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtMark2">
+      <BindingProperties>
+        <BindingProperty name="text" source="slider2" sourcePath="${value}" target="txtMark2" targetPath="text" updateStrategy="0" immediately="false">
+          <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
+        </BindingProperty>
+        <BindingProperty name="editable" source="chkSlider2" sourcePath="${!selected}" target="txtMark2" targetPath="editable" updateStrategy="0" immediately="false"/>
+        <BindingProperty name="enabled" source="chkActive2" sourcePath="${selected}" target="txtMark2" targetPath="enabled" updateStrategy="0" immediately="false"/>
+      </BindingProperties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtMark3">
+      <BindingProperties>
+        <BindingProperty name="text" source="slider3" sourcePath="${value}" target="txtMark3" targetPath="text" updateStrategy="0" immediately="false">
+          <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
+        </BindingProperty>
+        <BindingProperty name="editable" source="chkSlider3" sourcePath="${!selected}" target="txtMark3" targetPath="editable" updateStrategy="0" immediately="false"/>
+        <BindingProperty name="enabled" source="chkActive3" sourcePath="${selected}" target="txtMark3" targetPath="enabled" updateStrategy="0" immediately="false"/>
+      </BindingProperties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtMarkFinal">
+      <BindingProperties>
+        <BindingProperty name="text" source="sliderFinal" sourcePath="${value}" target="txtMarkFinal" targetPath="text" updateStrategy="0" immediately="false">
+          <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
+        </BindingProperty>
+        <BindingProperty name="editable" source="chkSliderFinal" sourcePath="${!selected}" target="txtMarkFinal" targetPath="editable" updateStrategy="0" immediately="false"/>
+      </BindingProperties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblFinal">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Final"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtWeight1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="txtWeight1FocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtWeight2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+      <BindingProperties>
+        <BindingProperty name="enabled" source="chkActive2" sourcePath="${selected}" target="txtWeight2" targetPath="enabled" updateStrategy="0" immediately="false"/>
+      </BindingProperties>
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="txtWeight2FocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtWeight3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+      <BindingProperties>
+        <BindingProperty name="enabled" source="chkActive3" sourcePath="${selected}" target="txtWeight3" targetPath="enabled" updateStrategy="0" immediately="false"/>
+      </BindingProperties>
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="txtWeight3FocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtWeightFinal">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+        <Property name="text" type="java.lang.String" value="100"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtWeightFinalActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblMark">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Mark(%)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblWeight">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Weight (%)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtName3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Project"/>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+      <BindingProperties>
+        <BindingProperty name="enabled" source="chkActive3" sourcePath="${selected}" target="txtName3" targetPath="enabled" updateStrategy="0" immediately="false"/>
+      </BindingProperties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtName2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Project"/>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+      <BindingProperties>
+        <BindingProperty name="enabled" source="chkActive2" sourcePath="${selected}" target="txtName2" targetPath="enabled" updateStrategy="0" immediately="false"/>
+      </BindingProperties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtName1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Project"/>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblName">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Name"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnCalculate">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Calculate"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCalculateActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="chkSlider2">
+      <BindingProperties>
+        <BindingProperty name="enabled" source="chkActive2" sourcePath="${selected}" target="chkSlider2" targetPath="enabled" updateStrategy="0" immediately="false"/>
+      </BindingProperties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="chkSlider1">
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="chkSliderFinal">
+      <Properties>
+        <Property name="selected" type="boolean" value="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="chkSlider3">
+      <BindingProperties>
+        <BindingProperty name="enabled" source="chkActive3" sourcePath="${selected}" target="chkSlider3" targetPath="enabled" updateStrategy="0" immediately="false"/>
+      </BindingProperties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Slider?"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSlider" name="slider1">
+      <BindingProperties>
+        <BindingProperty name="enabled" source="chkSlider1" sourcePath="${selected}" target="slider1" targetPath="enabled" updateStrategy="0" immediately="false"/>
+      </BindingProperties>
+    </Component>
+    <Component class="javax.swing.JSlider" name="slider2">
+      <BindingProperties>
+        <BindingProperty name="enabled" source="chkSlider2" sourcePath="${selected}" target="slider2" targetPath="enabled" updateStrategy="0" immediately="false"/>
+      </BindingProperties>
+    </Component>
+    <Component class="javax.swing.JSlider" name="sliderFinal">
+      <BindingProperties>
+        <BindingProperty name="enabled" source="chkSliderFinal" sourcePath="${selected}" target="sliderFinal" targetPath="enabled" updateStrategy="0" immediately="false"/>
+      </BindingProperties>
+    </Component>
+    <Component class="javax.swing.JSlider" name="slider3">
+      <BindingProperties>
+        <BindingProperty name="enabled" source="chkSlider3" sourcePath="${selected}" target="slider3" targetPath="enabled" updateStrategy="0" immediately="false"/>
+      </BindingProperties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="chkActive1">
+      <Properties>
+        <Property name="selected" type="boolean" value="true"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="chkActive2">
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="chkActive3">
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="chkActiveFinal">
+      <Properties>
+        <Property name="selected" type="boolean" value="true"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="chkSlider4">
+      <BindingProperties>
+        <BindingProperty name="enabled" source="chkActive5" sourcePath="${selected}" target="chkSlider4" targetPath="enabled" updateStrategy="0" immediately="false"/>
+      </BindingProperties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtWeight4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+      <BindingProperties>
+        <BindingProperty name="enabled" source="chkActive5" sourcePath="${selected}" target="txtWeight4" targetPath="enabled" updateStrategy="0" immediately="false"/>
+      </BindingProperties>
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="txtWeight4FocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JSlider" name="slider4">
+      <BindingProperties>
+        <BindingProperty name="enabled" source="chkSlider4" sourcePath="${selected}" target="slider4" targetPath="enabled" updateStrategy="0" immediately="false"/>
+      </BindingProperties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtName4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Project"/>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+      <BindingProperties>
+        <BindingProperty name="enabled" source="chkActive5" sourcePath="${selected}" target="txtName4" targetPath="enabled" updateStrategy="0" immediately="false"/>
+      </BindingProperties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtMark4">
+      <BindingProperties>
+        <BindingProperty name="text" source="slider4" sourcePath="${value}" target="txtMark4" targetPath="text" updateStrategy="0" immediately="false">
+          <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
+        </BindingProperty>
+        <BindingProperty name="editable" source="chkSlider4" sourcePath="${!selected}" target="txtMark4" targetPath="editable" updateStrategy="0" immediately="false"/>
+        <BindingProperty name="enabled" source="chkActive5" sourcePath="${selected}" target="txtMark4" targetPath="enabled" updateStrategy="0" immediately="false"/>
+      </BindingProperties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="chkActive4">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtMark5">
+      <BindingProperties>
+        <BindingProperty name="text" source="slider5" sourcePath="${value}" target="txtMark5" targetPath="text" updateStrategy="0" immediately="false">
+          <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
+        </BindingProperty>
+        <BindingProperty name="editable" source="chkSlider5" sourcePath="${!selected}" target="txtMark5" targetPath="editable" updateStrategy="0" immediately="false"/>
+        <BindingProperty name="enabled" source="chkActive5" sourcePath="${selected}" target="txtMark5" targetPath="enabled" updateStrategy="0" immediately="false"/>
+      </BindingProperties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="chkActive5">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtWeight5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+      <BindingProperties>
+        <BindingProperty name="enabled" source="chkActive5" sourcePath="${selected}" target="txtWeight5" targetPath="enabled" updateStrategy="0" immediately="false"/>
+      </BindingProperties>
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="txtWeight5FocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JSlider" name="slider5">
+      <BindingProperties>
+        <BindingProperty name="enabled" source="chkSlider5" sourcePath="${selected}" target="slider5" targetPath="enabled" updateStrategy="0" immediately="false"/>
+      </BindingProperties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="chkSlider5">
+      <BindingProperties>
+        <BindingProperty name="enabled" source="chkActive5" sourcePath="${selected}" target="chkSlider5" targetPath="enabled" updateStrategy="0" immediately="false"/>
+      </BindingProperties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtName5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Project"/>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+      <BindingProperties>
+        <BindingProperty name="enabled" source="chkActive5" sourcePath="${selected}" target="txtName5" targetPath="enabled" updateStrategy="0" immediately="false"/>
+      </BindingProperties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtWeight6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+      <BindingProperties>
+        <BindingProperty name="enabled" source="chkActive6" sourcePath="${selected}" target="txtWeight6" targetPath="enabled" updateStrategy="0" immediately="false"/>
+      </BindingProperties>
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="txtWeight6FocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtMark6">
+      <BindingProperties>
+        <BindingProperty name="text" source="slider6" sourcePath="${value}" target="txtMark6" targetPath="text" updateStrategy="0" immediately="false">
+          <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
+        </BindingProperty>
+        <BindingProperty name="editable" source="chkSlider6" sourcePath="${!selected}" target="txtMark6" targetPath="editable" updateStrategy="0" immediately="false"/>
+        <BindingProperty name="enabled" source="chkActive6" sourcePath="${selected}" target="txtMark6" targetPath="enabled" updateStrategy="0" immediately="false"/>
+      </BindingProperties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="chkSlider6">
+      <BindingProperties>
+        <BindingProperty name="enabled" source="chkActive6" sourcePath="${selected}" target="chkSlider6" targetPath="enabled" updateStrategy="0" immediately="false"/>
+      </BindingProperties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtName6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Project"/>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+      <BindingProperties>
+        <BindingProperty name="enabled" source="chkActive6" sourcePath="${selected}" target="txtName6" targetPath="enabled" updateStrategy="0" immediately="false"/>
+      </BindingProperties>
+    </Component>
+    <Component class="javax.swing.JSlider" name="slider6">
+      <BindingProperties>
+        <BindingProperty name="enabled" source="chkSlider6" sourcePath="${selected}" target="slider6" targetPath="enabled" updateStrategy="0" immediately="false"/>
+      </BindingProperties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="chkActive6">
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="chkSlider7">
+      <BindingProperties>
+        <BindingProperty name="enabled" source="chkActive7" sourcePath="${selected}" target="chkSlider7" targetPath="enabled" updateStrategy="0" immediately="false"/>
+      </BindingProperties>
+    </Component>
+    <Component class="javax.swing.JSlider" name="slider7">
+      <BindingProperties>
+        <BindingProperty name="enabled" source="chkSlider7" sourcePath="${selected}" target="slider7" targetPath="enabled" updateStrategy="0" immediately="false"/>
+      </BindingProperties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtName7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Project"/>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+      <BindingProperties>
+        <BindingProperty name="enabled" source="chkActive7" sourcePath="${selected}" target="txtName7" targetPath="enabled" updateStrategy="0" immediately="false"/>
+      </BindingProperties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="chkActive7">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtWeight7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+      <BindingProperties>
+        <BindingProperty name="enabled" source="chkActive7" sourcePath="${selected}" target="txtWeight7" targetPath="enabled" updateStrategy="0" immediately="false"/>
+      </BindingProperties>
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="txtWeight7FocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtMark7">
+      <BindingProperties>
+        <BindingProperty name="text" source="slider7" sourcePath="${value}" target="txtMark7" targetPath="text" updateStrategy="0" immediately="false">
+          <BindingParameter name="javax.swing.binding.ParameterKeys.TEXT_CHANGE_STRATEGY" value="javax.swing.binding.TextChangeStrategy.ON_TYPE"/>
+        </BindingProperty>
+        <BindingProperty name="editable" source="chkSlider7" sourcePath="${!selected}" target="txtMark7" targetPath="editable" updateStrategy="0" immediately="false"/>
+        <BindingProperty name="enabled" source="chkActive7" sourcePath="${selected}" target="txtMark7" targetPath="enabled" updateStrategy="0" immediately="false"/>
+      </BindingProperties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Mark: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCalMark">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
